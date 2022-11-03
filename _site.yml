@@ -3,6 +3,7 @@ navbar:
   title: " "
   left:
     - text: "Nivelatorio de Estadística"
+      href: index.html    
     - text: "Unidad 0"
       href: unidad1.html
       menu:
