@@ -1,36 +1,36 @@
 name: " "
+output_dir: "docs"
 navbar:
-  title: " "
   left:
-    - text: "Nivelatorio de Estadística"
-      href: index.html    
-    - text: "Unidad 0"
-      href: unidad1.html
-      menu:
-       - text: "Introducción a R"
-         href: recurso001.html
-       - text: "Rmarkdown"
-         href: recurso002.html       
     - text: "Unidad 1"
+      href: index.html    
+      menu:
+         - text: "Introducción a R"
+           href: recurso001.html
+         - text: "Datos"
+           href: recurso002.html 
+         - text: "Rmarkdown"
+           href: recurso002.html          
+    - text: "Unidad 2"
       href: unidad1.html
       menu:
-       - text: "Introducción"
-         href: recurso101.html
-       - text: "Indicadores de posición"
-         href: recurso102.html  
-       - text: "Indicadores de centro"
-         href: recurso103.html  
-       - text: "Indicadores de variabilidad"
-         href: recurso104.html  
-       - text: "Indicadores de forma"
-         href: recurso105.html
-       - text: "Representación gráfica"
-         href: recurso106.html        
-    - text: "Unidad 2"
+         - text: "Introducción"
+           href: recurso101.html
+         - text: "Indicadores de posición"
+           href: recurso102.html  
+         - text: "Indicadores de centro"
+           href: recurso103.html  
+         - text: "Indicadores de variabilidad"
+           href: recurso104.html  
+         - text: "Indicadores de forma"
+           href: recurso105.html
+         - text: "Representación gráfica"
+           href: recurso106.html        
+    - text: "Unidad 3"
       menu:
-       - text: "Probabilidad"
-         href: recurso201.html
-       - text: "Tipos de probabilidad"
-         href: recurso202.html            
-       - text: "Variable aleatoria"
-         href: recurso203.html            
+         - text: "Probabilidad"
+           href: recurso201.html
+         - text: "Tipos de probabilidad"
+           href: recurso202.html            
+         - text: "Variable aleatoria"
+           href: recurso203.html            
