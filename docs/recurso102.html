@@ -9,11 +9,10 @@
 <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
-<meta name="author" content="Modelos Estadísticos para la toma de decisiones" />
+<meta name="author" content="Nivelatorio de Estadística" />
 
-<meta name="date" content="2022-01-01" />
 
-<title>Posicion</title>
+<title>Recurso 102 : Manejo de paquetes en R</title>
 
 <script src="site_libs/header-attrs-2.17/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
@@ -252,13 +251,13 @@ $(document).ready(function () {
   </a>
   <ul class="dropdown-menu" role="menu">
     <li>
-      <a href="recurso001.html">Introducción a R</a>
+      <a href="recurso101.html">Introducción a R</a>
     </li>
     <li>
-      <a href="recurso002.html">Datos</a>
+      <a href="recurso102.html">Manejo de paquetes</a>
     </li>
     <li>
-      <a href="recurso002.html">Rmarkdown</a>
+      <a href="recurso103.html">Rmarkdown</a>
     </li>
   </ul>
 </li>
@@ -270,22 +269,22 @@ $(document).ready(function () {
   </a>
   <ul class="dropdown-menu" role="menu">
     <li>
-      <a href="recurso101.html">Introducción</a>
+      <a href="recurso201.html">Introducción</a>
     </li>
     <li>
-      <a href="recurso102.html">Indicadores de posición</a>
+      <a href="recurso202.html">Indicadores de posición</a>
     </li>
     <li>
-      <a href="recurso103.html">Indicadores de centro</a>
+      <a href="recurso203.html">Indicadores de centro</a>
     </li>
     <li>
-      <a href="recurso104.html">Indicadores de variabilidad</a>
+      <a href="recurso204.html">Indicadores de variabilidad</a>
     </li>
     <li>
-      <a href="recurso105.html">Indicadores de forma</a>
+      <a href="recurso205.html">Indicadores de forma</a>
     </li>
     <li>
-      <a href="recurso106.html">Representación gráfica</a>
+      <a href="recurso206.html">Representación gráfica</a>
     </li>
   </ul>
 </li>
@@ -297,13 +296,13 @@ $(document).ready(function () {
   </a>
   <ul class="dropdown-menu" role="menu">
     <li>
-      <a href="recurso201.html">Probabilidad</a>
+      <a href="recurso301.html">Probabilidad</a>
     </li>
     <li>
-      <a href="recurso202.html">Tipos de probabilidad</a>
+      <a href="recurso302.html">Tipos de probabilidad</a>
     </li>
     <li>
-      <a href="recurso203.html">Variable aleatoria</a>
+      <a href="recurso303.html">Variable aleatoria</a>
     </li>
   </ul>
 </li>
@@ -319,14 +318,88 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">Posicion</h1>
-<h4 class="author">Modelos Estadísticos para la toma de decisiones</h4>
-<h4 class="date">2022</h4>
+<h1 class="title toc-ignore">Recurso 102 : Manejo de paquetes en R</h1>
+<h4 class="author">Nivelatorio de Estadística</h4>
 
 </div>
 
 
-
+<p><br/><br/></p>
+<div id="instalación-de-paquetes-en-r" class="section level1">
+<h1><strong>Instalación de paquetes en R</strong></h1>
+<p>El lenguaje <strong>R</strong> esta conformado por miles de paquetes
+o <strong>Packages</strong> construidos por investigadores en diversos
+temas y área del conocimiento</p>
+<p>Al instalar <strong>R</strong> se descargan con el programa una serie
+de paquetes para ser utiliadas de manera inmediata. A este primer
+conjunto se llama <strong>base</strong> y permite dar respuesta a
+problemas básicos. Sin embargo en algunos casos es necesario instalar
+paquetes adicionales, los cuales iremos anunciando en la medida que sean
+necesario.</p>
+<p>La instalación de paquetes se puede hacer de dos formas :</p>
+<p><br/><br/></p>
+<div
+id="utilizando-la-vengtana-packages-ubicada-en-la-parte-inferior-derecha-de-rstudio"
+class="section level4">
+<h4>1. Utilizando la vengtana <strong>Packages</strong> ubicada en la
+parte inferior derecha de RStudio</h4>
+<p><img src="img/install_package1.png" width="80%" style="display: block; margin: auto auto auto 0;" /></p>
+<p><br/><br/></p>
+</div>
+<div id="digitando-en-la-consola-la-función-install.packages"
+class="section level4">
+<h4>2. Digitando en la consola la función
+<code>install.packages()</code></h4>
+<p><br/></p>
+<div id="directamente-de-los-repositorios-de-r" class="section level5">
+<h5>Directamente de los repositorios de R</h5>
+<p><br/></p>
+<pre class="r"><code>install.packages(&quot;ggplot2&quot;)</code></pre>
+<p><br/></p>
+</div>
+<div id="desde-un-repositorio-en-github" class="section level5">
+<h5>Desde un repositorio en GitHub</h5>
+<pre class="r"><code>devtools::install_github(&quot;dgonxalex80/paqueteDEG&quot;)</code></pre>
+<p><br/><br/></p>
+</div>
+</div>
+<div id="paquetes-más-utilizados-en-ciencia-de-datos"
+class="section level3">
+<h3><strong>Paquetes más utilizados en ciencia de datos</strong></h3>
+<p><br/><br/></p>
+<table>
+<colgroup>
+<col width="24%" />
+<col width="75%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">paquete</th>
+<th align="left">descripción</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<p><br/><br/></p>
+<p><a href="https://gallery.shinyapps.io/087-crandash/">Tablero Paquetes
+RStudio descargados</a></p>
+<p><br/><br/></p>
+</div>
+</div>
+<div id="ventana-help" class="section level1">
+<h1>Ventana <strong>Help</strong></h1>
+<p>La función <code>help()</code> permite la visualización de las ayudas
+relacionadas con una función en la ventana Help que permite visualizar
+la sintaxis de las funciones. En el siguiente ejemplo la función
+help(“install.packages”) permite visualizar los parámetros de la
+función</p>
+<pre class="r"><code>help(&quot;sum&quot;)</code></pre>
+</div>
 
 
 

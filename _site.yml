@@ -3,34 +3,32 @@ output_dir: "docs"
 navbar:
   left:
     - text: "Unidad 1"
-      href: index.html    
       menu:
          - text: "Introducción a R"
-           href: recurso001.html
-         - text: "Datos"
-           href: recurso002.html 
+           href: recurso101.html
+         - text: "Manejo de paquetes"
+           href: recurso102.html 
          - text: "Rmarkdown"
-           href: recurso002.html          
+           href: recurso103.html          
     - text: "Unidad 2"
-      href: unidad1.html
       menu:
          - text: "Introducción"
-           href: recurso101.html
+           href: recurso201.html
          - text: "Indicadores de posición"
-           href: recurso102.html  
+           href: recurso202.html  
          - text: "Indicadores de centro"
-           href: recurso103.html  
+           href: recurso203.html  
          - text: "Indicadores de variabilidad"
-           href: recurso104.html  
+           href: recurso204.html  
          - text: "Indicadores de forma"
-           href: recurso105.html
+           href: recurso205.html
          - text: "Representación gráfica"
-           href: recurso106.html        
+           href: recurso206.html        
     - text: "Unidad 3"
       menu:
          - text: "Probabilidad"
-           href: recurso201.html
+           href: recurso301.html
          - text: "Tipos de probabilidad"
-           href: recurso202.html            
+           href: recurso302.html            
          - text: "Variable aleatoria"
-           href: recurso203.html            
+           href: recurso303.html            
