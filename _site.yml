@@ -6,6 +6,8 @@ navbar:
       menu:
          - text: "Introducción"
            href: recurso201.html
+         - text: "Tablas de frecuencia"
+           href: recurso207.html          
          - text: "Indicadores de posición"
            href: recurso202.html  
          - text: "Indicadores de centro"
