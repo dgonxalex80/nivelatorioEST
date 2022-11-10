@@ -1,5 +1,5 @@
 ---
-title: "204 Variabilidad"
+title: "Indicadores de variabilidad o dispersión"
 author: "Nivelatorio de Estadística"
 date: "2022"
 output: html_document

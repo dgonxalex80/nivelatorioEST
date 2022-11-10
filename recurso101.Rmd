@@ -1,5 +1,5 @@
 ---
-title: "Recurso 101 : Introducción a R"
+title: "Introducción a R"
 author: "Nivelatorio de Estadística"
 date: "2022"
 output: html_document

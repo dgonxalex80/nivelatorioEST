@@ -1,5 +1,5 @@
 ---
-title: "Recurso 302 : Tipos de probabilidad"
+title: "Tipos de probabilidad"
 author: "Nivelatorio de Estadística"
 date: "2022"
 output: html_document

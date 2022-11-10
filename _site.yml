@@ -4,14 +4,6 @@ navbar:
   left:
     - text: "Unidad 1"
       menu:
-         - text: "Introducción a R"
-           href: recurso101.html
-         - text: "Manejo de paquetes"
-           href: recurso102.html 
-         - text: "Rmarkdown"
-           href: recurso103.html          
-    - text: "Unidad 2"
-      menu:
          - text: "Introducción"
            href: recurso201.html
          - text: "Indicadores de posición"
@@ -24,7 +16,7 @@ navbar:
            href: recurso205.html
          - text: "Representación gráfica"
            href: recurso206.html        
-    - text: "Unidad 3"
+    - text: "Unidad 2"
       menu:
          - text: "Probabilidad"
            href: recurso301.html
@@ -32,3 +24,15 @@ navbar:
            href: recurso302.html            
          - text: "Variable aleatoria"
            href: recurso303.html            
+    - text: "Unidad 3"
+      menu:
+         - text: "Introducción a R"
+           href: recurso101.html
+         - text: "Manejo de paquetes"
+           href: recurso102.html 
+         - text: "Rmarkdown"
+           href: recurso103.html   
+         - text: "Uso de tutoriales"
+           href: recurso104.html             
+           
+           

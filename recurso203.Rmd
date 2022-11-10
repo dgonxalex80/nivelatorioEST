@@ -1,5 +1,5 @@
 ---
-title: "203 Tendencias central"
+title: "Indicadores de tendencias central"
 author: "Nivelatorio de Estadística"
 date: "2022"
 output: html_document

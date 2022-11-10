@@ -1,5 +1,5 @@
 ---
-title: "Recurso 102 : Manejo de paquetes en R"
+title: "Manejo de paquetes en R"
 author: "Nivelatorio de Estadística"
 output: html_document
 ---

@@ -1,5 +1,5 @@
 ---
-title: "Recurso 301 : Introducción a la probabilidad"
+title: "Introducción a la probabilidad"
 author: "Nivelatorio de Estadística"
 date: "2022"
 output: html_document
